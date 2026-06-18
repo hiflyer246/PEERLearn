@@ -7,6 +7,34 @@ Admins have centralized control over tutor approvals and user management.
 <img width="1463" height="826" alt="image" src="https://github.com/user-attachments/assets/70384070-e07d-4c51-b69b-1e037ea4bc1e" />
 
 ---
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- PostgreSQL
+- Supabase
+
+### Authentication
+- Supabase Auth
+- Role-Based Access Control (RBAC)
+
+### Notifications
+- Resend API
+
+### Deployment
+- Vercel
+- Render
+
+---
 ## System Architecture
 
 <img width="521" height="504" alt="image" src="https://github.com/user-attachments/assets/3d69fe32-42f6-43b0-82f0-efef946adcc2" />
@@ -21,10 +49,38 @@ Admins have centralized control over tutor approvals and user management.
 ---
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/veda131104/skill-match-learn.git
+git clone https://github.com/hiflyer246/PEERLearn.git
 cd peerlearn
 ```
 
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Configure Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_key
+RESEND_API_KEY=your_resend_api_key
+```
+
+### 4️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+### 5️⃣ Build for Production
+
+```bash
+npm run build
+```
 
