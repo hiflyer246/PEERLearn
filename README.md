@@ -9,10 +9,14 @@ Admins have centralized control over tutor approvals and user management.
 ---
 ## Key Features
 #### 🔐 Role-Based Authentication – Secure login for Students, Tutors, and Admins
-####🧠 Tutor Discovery – Search and filter tutors by subject, rating, language, and experience
+#### 🧠 Tutor Discovery – Search and filter tutors by subject, rating, language, and experience
 #### 🗓️ Session Booking – Seamless scheduling between students and tutors
 #### 👑 Admin Dashboard – Approve tutors, manage users, and send notifications
 #### 📊 Performance Tracking – Real-time rating and review updates
+---
+## System Architecture
+
+<img width="521" height="504" alt="image" src="https://github.com/user-attachments/assets/3d69fe32-42f6-43b0-82f0-efef946adcc2" />
 ---
 ## 🛠️ Tech Stack
 
@@ -32,11 +36,6 @@ Admins have centralized control over tutor approvals and user management.
 ### Authentication
 - Supabase Auth
 - Role-Based Access Control (RBAC)
-
----
-## System Architecture
-
-<img width="521" height="504" alt="image" src="https://github.com/user-attachments/assets/3d69fe32-42f6-43b0-82f0-efef946adcc2" />
 
 ---
 ## ⚙️ Installation & Setup
