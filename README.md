@@ -17,7 +17,9 @@ Admins have centralized control over tutor approvals and user management.
 ## System Architecture
 
 <img width="521" height="504" alt="image" src="https://github.com/user-attachments/assets/3d69fe32-42f6-43b0-82f0-efef946adcc2" />
+
 ---
+
 ## 🛠️ Tech Stack
 
 ### Frontend
